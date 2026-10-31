@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Request the site
-        run: curl -sS -L -A "Mozilla/5.0" -o /dev/null -w "%{http_code}\n" http://ajayidaniel.gt.tc
+        run: curl -sS -L -A "Mozilla/5.0" -o /dev/null -w "%{http_code}\n" https://ajayidaniel.gt.tc/oldpage.html
